@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* ==========================================================================================
+                                      Business Css start
+============================================================================================*/
+
+:root {
+  --HankenGrotesk: "Hanken Grotesk", sans-serif;
+  --ProductSans: "PT Sans", sans-serif;
+}
+
+.business {
+  background-image: linear-gradient(
+    to right top,
+    #f9f5ff,
+    #f9f5ff,
+    #faf6ff,
+    #faf6ff,
+    #faf6ff
+  );
+}
+
+.business__wraper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.business__card {
+  box-shadow: #7c14fd24 0px 7px 29px 0px;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  background: #faf6ff;
+  padding-top: 69px;
+  padding-left: 30px;
+  padding-right: 29px;
+  padding-bottom: 45px;
+  width: 297px;
+  transition: all linear 0.2s;
+  cursor: pointer;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.business__card:hover .card__btn {
+  background: #9244f1;
+  transform: translateX(10%);
+  -webkit-transform: translateX(10%);
+  -moz-transform: translateX(10%);
+  -ms-transform: translateX(10%);
+  -o-transform: translateX(10%);
+}
+
+.business__card:hover {
+  transform: translateY(-4%);
+  -webkit-transform: translateY(-4%);
+  -moz-transform: translateY(-4%);
+  -ms-transform: translateY(-4%);
+  -o-transform: translateY(-4%);
+  box-shadow: 0px 86px 114px 0px #7c14fd24;
+}
+
+.business__card:hover .dobble__arrow {
+  display: block;
+  transform: translateX(20%);
+  -webkit-transform: translateX(20%);
+  -moz-transform: translateX(20%);
+  -ms-transform: translateX(20%);
+  -o-transform: translateX(20%);
+}
+
+.business__card:hover .cardRightArrow {
+  display: none;
+}
+
+.card__title {
+  color: #000;
+  font-family: var(--ProductSans);
+  font-size: 27px;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+
+.card__detail {
+  color: #000;
+  font-family: var(--HankenGrotesk);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.8;
+  padding-bottom: 47px;
+}
+
+.card__btn {
+  cursor: pointer;
+  display: flex;
+  border-radius: 15px;
+  background: #b070ff;
+  padding: 12px 24px;
+  color: #fff;
+  font-family: var(--HankenGrotesk);
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.cardRightArrow {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.dobble__arrow {
+  display: none;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.page {
+  font-family: var(--ProductSans);
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  display: flex;
+  text-align: center;
+  column-gap: 20px;
+  justify-content: center;
+}
+
+.page p {
+  transition: all linear 0.2s;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 8px 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+
+.page p:hover {
+  background-color: #b070ff;
+  color: #fff;
+}
+/* ==========================================================================================
+                                      Business Css End
+============================================================================================*/
